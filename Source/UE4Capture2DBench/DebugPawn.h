@@ -11,6 +11,9 @@ class UE4CAPTURE2DBENCH_API ADebugPawn : public ADefaultPawn
 	GENERATED_BODY()
 
 public:
+	UPROPERTY(EditAnywhere)
+	USceneCaptureComponent2D* Capture2DComponent;
+
 	// Sets default values for this pawn's properties
 	ADebugPawn();
 
